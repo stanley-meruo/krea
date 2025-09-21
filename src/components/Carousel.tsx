@@ -70,7 +70,7 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.2 }}
-                  className="text-[8px] font-bold [text-shadow:_0px_2px_4px_rgb(0_0_0_/_0.8)] shadow-black uppercase opacity-90 md:text-[10px] lg:text-xs"
+                  className="text-[8px] font-bold [text-shadow:_0px_2px_4px_rgb(0_0_0_/_0.8)] shadow-black uppercase opacity-90 md:text-[10px] xl:text-xs"
                 >
                   {slide.caption}
                 </motion.h2>

@@ -1,12 +1,8 @@
 import { RiCloseFill, RiImageAiFill } from "react-icons/ri";
-import { FaBell } from "react-icons/fa";
-import { PiMicrophoneStageFill, PiMoonFill, PiPersonArmsSpreadFill, PiSunFill } from "react-icons/pi";
-import { TbMenu } from "react-icons/tb";
-import { GoHomeFill } from "react-icons/go";
+import { PiMicrophoneStageFill, PiPersonArmsSpreadFill } from "react-icons/pi";
 import { BsImage } from "react-icons/bs";
-import { HiFolder, HiVideoCamera } from "react-icons/hi";
+import { HiVideoCamera } from "react-icons/hi";
 import { ImMagicWand } from "react-icons/im";
-import { BiSupport } from "react-icons/bi";
 import { LiaDraftingCompassSolid } from "react-icons/lia";
 import { AiFillSignature } from "react-icons/ai";
 import Button from "./Button";

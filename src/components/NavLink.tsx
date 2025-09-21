@@ -58,9 +58,7 @@ const NavLink: React.FC<NavLinkProps> = ({
 
       {showTooltip && (
         <span
-          className="absolute top-10 left-1/2 -translate-x-1/2 px-2 py-1 text-xs 
-                         text-gray-600 bg-gray-100 dark:bg-gray-800 dark:text-gray-300 rounded-lg 
-                         opacity-0 group-hover:opacity-100 transition whitespace-nowrap"
+          className="absolute top-12 left-1/2 -translate-x-1/2 px-2 py-1 text-xs text-gray-600 bg-gray-100 dark:bg-gray-800 dark:text-gray-300 rounded-lg opacity-0 group-hover:opacity-100 transition whitespace-nowrap"
         >
           {label}
         </span>

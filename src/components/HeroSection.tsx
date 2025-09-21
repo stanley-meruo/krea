@@ -108,7 +108,7 @@ const HeroSection = () => {
   ];
 
   return (
-    <main className="flex items-center justify-center pt-32 px-4 xs:px-5 sm:px-8 lg:px-12 xl:px-14 xxl:px-16">
+    <main className="flex items-center justify-center pt-24 px-4 xs:px-5 sm:px-8 md:pt-28 lg:px-12 lg:pt-32 xl:px-14 xxl:px-16">
       <Carousel slides={slides} />
     </main>
   );

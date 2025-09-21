@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Krea",
-  icons: "/krea-icon.png",
+  icons: "/krea-light.webp",
   description: "AI Image Generation",
 };
 
