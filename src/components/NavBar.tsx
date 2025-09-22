@@ -5,7 +5,7 @@ import NavLink from "./NavLink";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { RiCloseFill, RiImageAiFill } from "react-icons/ri";
-import { FaBell } from "react-icons/fa";
+import { FaAngleDown, FaBell } from "react-icons/fa";
 import { PiMoonFill, PiSunFill } from "react-icons/pi";
 import { TbMenu } from "react-icons/tb";
 import { GoHomeFill } from "react-icons/go";
@@ -72,7 +72,7 @@ const NavBar = () => {
         }`}
       >
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 xl:gap-6">
             {/* Mobile Hamburger */}
             <button
               onClick={toggleMenu}
@@ -91,11 +91,16 @@ const NavBar = () => {
               <Image
                 src={logoSrc}
                 alt="Krea Logo"
-                width={28}
+                width={24}
                 height={20}
                 className="transition-all duration-300"
               />
             </Link>
+            <button className="hidden xl:flex items-center gap-2 text-gray-500 dark:text-gray-400">
+                <span className="bg-gradient-to-br from-red-400 via-blue-300 to-indigo-200 rounded-full border-[0.5px] border-gray-200 size-4 animate-pulse"></span>
+                benevolentrim
+                <FaAngleDown  className="mt-1"/>
+            </button>
           </div>
 
           {/* Desktop Nav */}

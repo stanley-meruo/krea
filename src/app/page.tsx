@@ -1,13 +1,17 @@
 import HeroSection from "@/components/HeroSection";
 import NavBar from "@/components/NavBar";
-import Section from "@/components/Section";
+import GenerateSection from "@/components/GenerateSection";
+import GallerySection from "@/components/GallerySection";
+import PopButton from "@/components/PopButton";
 
 export default function Home() {
   return (
     <main className="min-h-screen dark:bg-gray-900">
       <NavBar />
       <HeroSection />
-      <Section />
+      <GenerateSection />
+      <GallerySection />
+      <PopButton />
     </main>
   );
 }

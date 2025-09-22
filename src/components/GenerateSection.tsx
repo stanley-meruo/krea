@@ -7,12 +7,19 @@ import { LiaDraftingCompassSolid } from "react-icons/lia";
 import { AiFillSignature } from "react-icons/ai";
 import Button from "./Button";
 import { MdOutlineModelTraining } from "react-icons/md";
+import { FaAngleDown } from "react-icons/fa";
 
-const Section = () => {
+const GenerateSection = () => {
 
     return (
       <section className="dark:text-white py-12 px-4 xs:px-5 sm:px-8 lg:px-12 xl:px-14">
-        <h2 className="text-2xl font-semibold mb-4 md:text-3xl">Generate</h2>
+        <section className="flex items-center justify-between mb-8">
+          <h2 className="text-2xl font-semibold md:text-3xl">Generate</h2>
+          <button className="flex items-center gap-1 text-sm font-semibold text-blue-500 dark:text-gray-400 md:text-base md:gap-1.5">
+            <FaAngleDown />
+            Show all
+          </button>
+        </section>
 
         {/* Section */}
         <section className="grid gap-8 md:grid-cols-2 md:gap-x-10 xmd:gap-x-18 xxl:grid-cols-3 xl:gap-x-20">
@@ -181,4 +188,4 @@ const Section = () => {
       </section>
     );
 }
-export default Section
+export default GenerateSection
