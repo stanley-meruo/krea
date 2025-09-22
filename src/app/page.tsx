@@ -2,7 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import NavBar from "@/components/NavBar";
 import GenerateSection from "@/components/GenerateSection";
 import GallerySection from "@/components/GallerySection";
-import PopButton from "@/components/PopButton";
+// import PopButton from "@/components/PopButton";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
       <HeroSection />
       <GenerateSection />
       <GallerySection />
-      <PopButton />
+      {/* <PopButton /> */}
       <Footer />
     </main>
   );
