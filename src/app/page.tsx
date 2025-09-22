@@ -3,6 +3,7 @@ import NavBar from "@/components/NavBar";
 import GenerateSection from "@/components/GenerateSection";
 import GallerySection from "@/components/GallerySection";
 import PopButton from "@/components/PopButton";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <GenerateSection />
       <GallerySection />
       <PopButton />
+      <Footer />
     </main>
   );
 }

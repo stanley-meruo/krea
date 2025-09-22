@@ -1,4 +1,3 @@
-import { RiCloseFill, RiImageAiFill } from "react-icons/ri";
 import { PiMicrophoneStageFill, PiPersonArmsSpreadFill } from "react-icons/pi";
 import { BsImage } from "react-icons/bs";
 import { HiVideoCamera } from "react-icons/hi";
